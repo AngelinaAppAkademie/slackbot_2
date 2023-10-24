@@ -1,4 +1,4 @@
-#Slack-to-ClickUp Feedback Interface using Firebase Functions
+# Slack-to-ClickUp Feedback Interface using Firebase Functions
 
 This Firebase cloud function service integrates Slack and ClickUp, allowing users to provide feedback through a Slack UI interface and subsequently creating a task in ClickUp. Here's a breakdown of its functionality and how to use it.
 
