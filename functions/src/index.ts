@@ -15,7 +15,7 @@ exports.slackUiProvider = functions.region("europe-west3").
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "Zu was ist deine Kritik?"
+                        "text": "Zu welchen Lehrinhalten ist deine Kritik?"
                     },
                     "accessory": {
                         "type": "radio_buttons",
@@ -32,6 +32,14 @@ exports.slackUiProvider = functions.region("europe-west3").
                                 "text": {
                                     "type": "plain_text",
                                     "text": "Slide Deck",
+                                    "emoji": true
+                                },
+                                "value": "value-1"
+                            },
+                            {
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": "Cheat Sheet",
                                     "emoji": true
                                 },
                                 "value": "value-1"
